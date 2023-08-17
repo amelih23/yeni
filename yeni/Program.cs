@@ -1,0 +1,38 @@
+﻿// See https://aka.ms/new-console-template for more information
+using System.Threading.Channels;
+
+//Console.WriteLine("Hello, World!");
+//int ifade = 15;
+//int ifade2 = 25;
+//int toplam1 = ifade + ifade2;
+//Console.WriteLine(toplam1);
+//Console.Clear();
+//Console.WriteLine("sayı değerini giriniz:");
+//string sayı1 = Console.ReadLine();
+//Console.WriteLine( "sayı2 değerini giriniz");
+//string sayı2 =Console.ReadLine();
+//int değer1=Convert.ToInt32(sayı1);
+//int değer2 = Convert.ToInt32(sayı2);
+//int toplam = değer1 + değer2;
+//int çıkarma = değer1 - değer2;
+//int çarpım = değer1 * değer2;
+//int bölüm = değer1 / değer2;
+//Console.WriteLine("toplam= {0}, çıkarma={1},çarpım={2},bölüm={3}",toplam,çıkarma,çarpım,bölüm);
+//Console.Clear();
+//Console.WriteLine("kilonuzu giriniz:");
+//string kilo=Console.ReadLine();
+//Console.WriteLine("boyunuzu giriniz:");
+//string boy=Console.ReadLine();
+//double kilo1=Convert.ToDouble(kilo);
+//double boy1=Convert.ToDouble(boy);
+//double endex = kilo1 / (boy1 * boy1);
+//Console.WriteLine("vücut kitle endeksiniz= "+endex);
+Console.Clear();
+Console.WriteLine("Yarıçapı giriniz:");
+string deger = Console.ReadLine();
+double yarıcap = Convert.ToDouble(deger);
+double pi = 3.14;
+double alan = pi * yarıcap * yarıcap;
+double cevre = 2 * pi * yarıcap;
+Console.WriteLine("alan={0} çevre={1}", alan, cevre);
+Console.ReadLine();
